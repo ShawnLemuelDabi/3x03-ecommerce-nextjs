@@ -1,3 +1,5 @@
+## Test Server here
+https://3x03-ecommerce-nextjs-dscer663d-shawnlemueldabi.vercel.app/
 
 ## Getting Started
 
