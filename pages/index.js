@@ -19,6 +19,8 @@ const Home = ({ products, bannerData }) => (
   </div>
 );
 
+// https://nextjs.org/docs/basic-features/data-fetching/get-static-props
+// This fetches the products from the CMS and connects it to the front end for displaying
 export const getServerSideProps = async () => {
   const query = '*[_type == "product"]';
   const products = await client.fetch(query);
