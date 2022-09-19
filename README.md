@@ -1,13 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
+Steps to start:
+Dependencies to install:
+npm install --legacy-peer-deps
+
+cd into sanity_ecommerce:
+npm install -g @sanity/cli
+sanity install
+sanity start
+npm install --save-dev @babel/preset-react
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
